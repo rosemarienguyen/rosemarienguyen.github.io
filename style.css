@@ -187,6 +187,11 @@ hr {
 	#main-pic {
 		height: 75vh;
 	}
+	#bottom-right {
+		position: absolute;
+		bottom: 20px;
+		right: 30px;
+	}
 }
 
 
