@@ -96,6 +96,17 @@ label {
 	display: block;
 	padding: 10px;
 }
+@media (max-width: 400px) {
+	#logo {
+		width: 75px;
+		border-radius: 50%;
+		margin: 0px;
+		margin-top: 15px;
+	}
+	.nav-link {
+		font-size: 15px;
+	}
+}
 
 
 
@@ -157,6 +168,11 @@ hr {
 @media (max-width: 800px) {
 	.picture {
 		width: 45%;
+	}
+}
+@media (max-width: 600px) {
+	.picture {
+		width: 75%;
 	}
 }
 
