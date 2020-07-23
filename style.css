@@ -106,6 +106,12 @@ label {
 	.nav-link {
 		font-size: 15px;
 	}
+	.dropdown-content a {
+		font-size: 15px;
+	}
+	#nav-bar {
+		margin-top: 40px;
+	}
 }
 
 
