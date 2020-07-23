@@ -188,7 +188,7 @@ hr {
 }
 @media (max-width: 400px) {
 	#main-pic {
-		height: 65vh;
+		height: 70vh;
 	}
 	#bottom-right {
 		position: absolute;
