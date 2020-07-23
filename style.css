@@ -182,7 +182,8 @@ hr {
 }
 @media (max-width: 600px) {
 	.picture {
-		width: 75%;
+		height: 150px;
+		width: 150px;
 	}
 }
 @media (max-width: 400px) {
