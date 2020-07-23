@@ -183,6 +183,11 @@ hr {
 		width: 75%;
 	}
 }
+@media (max-width: 400px) {
+	#main-pic {
+		height: 75vh;
+	}
+}
 
 
 
