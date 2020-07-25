@@ -377,8 +377,6 @@ h3 {
 	margin-top: -10px;
 	background-color: rgba(255,252,235,.45);
 	position: relative;
-	z-index: -1;
-	
 }
 #main-order::before {
 	content: "";
@@ -391,12 +389,13 @@ h3 {
 	bottom: 0px;
 	left: 0px;
 	opacity: .2;
+	z-index: -2;
 }
 iframe {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	max-width: 100%;
 	position: relative;
 	z-index: 1;
-	max-width: 100%;
 }
