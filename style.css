@@ -300,6 +300,25 @@ hr {
 	left: 0px;
 	opacity: .2;
 }
+#main-creampuff-menu {
+	padding-top: 30px;
+	margin-top: -10px;
+	background-color: rgba(255,252,235,.45);
+	position: relative;
+	z-index: -1;
+}
+#main-creampuff-menu::before {
+	content: "";
+	background-image: url("#");
+	background-size: cover;
+	background-position: center;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	opacity: .2;
+}
 #main-macaron-menu {
 	padding-top: 30px;
 	margin-top: -10px;
@@ -310,6 +329,25 @@ hr {
 #main-macaron-menu::before {
 	content: "";
 	background-image: url("macaron.jpg");
+	background-size: cover;
+	background-position: center;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	opacity: .2;
+}
+#main-muffins-scones-menu {
+	padding-top: 30px;
+	margin-top: -10px;
+	background-color: rgba(255,252,235,.45);
+	position: relative;
+	z-index: -1;
+}
+#main-muffins-scones-menu::before {
+	content: "";
+	background-image: url("muffin.jpg");
 	background-size: cover;
 	background-position: center;
 	position: absolute;
@@ -340,6 +378,12 @@ hr {
 }
 #heading {
 	text-align: center;
+}
+#price {
+	text-align: center;
+	font-family: 'Lemon';
+	font-size: 20px;
+	color: #251a18;
 }
 .menu {
 	display: flex;
